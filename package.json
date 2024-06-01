@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm start --prefix client\" \"npm start --prefix server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "8.2.2",
+    "prettier": "3.2.5"
+  }
+}
